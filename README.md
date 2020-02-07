@@ -1,7 +1,7 @@
 # microservice
 Microservices Tutorial
 
-This tutorial contains an Demo Application based on Microservices architecture. The Application is divided into two service:
+This tutorial contains an Demo Application based on Microservices architecture. The Application is basically divided into two services:
 
 1. QuesionBank Service- This service is responsible for adding and retreiving questions into database. This service uses hibernate to interact with H2 database for different database operation.
 2. Interview Service - This service consumes the QuestionBank service acting as a layer between business use case and database operations.
